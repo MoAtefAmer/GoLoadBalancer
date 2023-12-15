@@ -5,3 +5,6 @@ build:
 
 run: build
 	./main
+
+
+pyserver:;python3 -m http.server ${p} --directory server${p}
